@@ -1,108 +1,107 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Website</title>
-        <style>
-        .block1 {
-            padding: 10px; 
-            border: 2px solid #E81E25; 
-        }
-        .block2 {
-            padding: 10px; 
-            border: 2px solid #E81E25; 
-        }
-        .block2-1 {
-            padding: 10px; 
-            border: 2px solid #000000; 
-        }
-        .block2-1-1 {
-            padding: 10px; 
-            border: 2px solid #036fd4; 
-        }
-        .block2-1-2 {
-            padding: 10px; 
-            border: 2px solid #036fd4; 
-        }
-        .block2-1-3 {
-            padding: 10px; 
-            border: 2px solid #036fd4; 
-        }
-        .block2-1-4 {
-            padding: 10px; 
-            border: 2px solid #036fd4; 
-        }
-        .block2-2 {
-            padding: 10px;
-            border: 2px solid #000000; 
-        }
-        .block2-3 {
-            padding: 10px;
-            border: 2px solid #000000;
-        }
-        .block3 {
+
+<head>
+    <meta charset="UTF-8">
+    <title>Website</title>
+    <style>
+        .menu {
             padding: 10px;
             border: 2px solid #E81E25;
         }
-        </style>
+
+        main {
+            padding: 10px;
+            border: 2px solid #E81E25;
+        }
+
+        .First-post, .Second-post, .Third-post {
+            padding: 10px;
+            border: 2px solid #000000;
+        }
+
         
-    </head>
-    <body>
-       
-        <div class = "block1">
+
+        .Heading,.Image, .Text, .Button {
+            padding: 10px;
+            border: 2px solid #036fd4;
+        }
+
+        .Basement {
+            padding: 10px;
+            border: 2px solid #E81E25;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header class="menu">
+        <nav class="menu-nav">
             <span>Шапка сайта</span>
             <ul>
-                <li>Главная</li>
-                <li>Новости</li>
-                <li>Контакты</li>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Контакты</a></li>
             </ul>
-        </div>
+        </nav>
+    </header>
 
-        <div class = "block2">
-            <span>Основное содержание</span>
-            <div class = "block2-1">
-                <div class = "block2-1-1">
-                    <span>Здесь будет заголовок поста</span>
-                </div>
-                <div class = "block2-1-2">
-                    <span>Здесь будет изображение</span>
-                </div>
-                <div class = "block2-1-3">
-                    <span>Это текст поста</span>
-                </div>
-                <div class = "block2-1-4">
-                    <button>Подробнее</button>
-                </div>
-            </div>
-            <div class = "block2-2">
-                <div class = "block2-1-1">
-                    <span>Здесь будет заголовок поста</span>
-                </div>
-                <div class = "block2-1-2">
-                    <span>Здесь будет изображение</span>
-                </div>
-                <div class = "block2-1-3">
-                    <span>Это текст поста</span></div>
-                <div class = "block2-1-4">
-                <button>Подробнее</button> </div>
-            </div>
-            <div class = "block2-3">
-                <div class = "block2-1-1">
-                    <span>Здесь будет заголовок поста</span>
-                </div>
-                <div class = "block2-1-2">
-                    <span>Здесь будет изображение</span>
-                </div>
-                <div class = "block2-1-3">
-                    <span>Это текст поста</span>
-                </div>
-                <div class = "block2-1-4">
-                <button>Подробнее</button></div>
-        </div>
-    </div>
-        <div class = "block3">
-            <span>Подвал сайта</span>
-        </div>
- 
-    </body>
+            <main>
+                <span>Основное содержание</span>
+                <section class="First-post">
+                    <div class="Heading">
+                        <span>Здесь будет заголовок поста</span>
+                    </div>
+                    <div class="Image">
+                        <span>Здесь будет изображение</span>
+                    </div>
+                    <div class="Text">
+                        <span>Это текст поста</span>
+                    </div>
+                    <div class="Button">
+                        <button>Подробнее</button>
+                    </div>
+                </section>
+
+                <section class="Second-post">
+                    <div class="Heading">
+                        <span>Здесь будет заголовок поста</span>
+                    </div>
+                    <div class="Image">
+                        <span>Здесь будет изображение</span>
+                    </div>
+                    <div class="Text">
+                        <span>Это текст поста</span>
+                    </div>
+                    <div class="Button">
+                        <button>Подробнее</button>
+                    </div>
+                </section>
+
+                    <section class="Third-post">
+                        <div class="Heading">
+                            <span>Здесь будет заголовок поста</span>
+                        </div>
+                        <div class="Image">
+                            <span>Здесь будет изображение</span>
+                        </div>
+                        <div class="Text">
+                            <span>Это текст поста</span>
+                        </div>
+                        <div class="Button">
+                            <button>Подробнее</button>
+                        </div>
+                    </section>
+
+
+                    <footer class="Basement">
+                        <span>Подвал сайта</span>
+                    </footer>
+            </main>
+
+</body>
+
 </html>
