@@ -5,37 +5,45 @@
     <meta charset="UTF-8">
     <title>Website</title>
     <style>
-        .menu {
-            padding: 10px;
-            border: 2px solid #E81E25;
-        }
-
         main {
             padding: 10px;
             border: 2px solid #E81E25;
         }
 
-        .First-post,
-        .Second-post,
-        .Third-post {
+        .menu {
+            padding: 10px;
+            border: 2px solid #E81E25;
+        }
+
+        .content {
+            padding: 10px;
+            border: 2px solid #E81E25;
+        }
+
+        .content__post {
             padding: 10px;
             border: 2px solid #000000;
         }
 
-
-
-        .Heading,
-        .Image,
-        .Text,
-        .Button {
+        .content__post__heading {
             padding: 10px;
             border: 2px solid #036fd4;
         }
 
-        .Basement {
+        .content__post__image {
+            padding: 10px;
+            border: 2px solid #036fd4;
+        }
+
+        .content__post__button {
+            padding: 10px;
+            border: 2px solid #036fd4;
+        }
+        .basement {
             padding: 10px;
             border: 2px solid #E81E25;
         }
+
     </style>
 
 </head>
@@ -43,7 +51,7 @@
 <body>
 
     <header class="menu">
-        <nav class="menu-nav">
+        <nav class="menu__av">
             <span>Шапка сайта</span>
             <ul>
                 <li><a href="#">Главная</a></li>
@@ -55,53 +63,33 @@
 
     <main>
         <span>Основное содержание</span>
-        <article class="First-post">
-            <div class="Heading">
-                <span>Здесь будет заголовок поста</span>
+        <div class="content">
+            <div class="content__post">
+                <div class="content__post__heading">Здесь будет заголовок поста</div>
+                <div class="content__post__image"> Здесь будет изображение</div>
+                <div class="content__post__button">
+                    <button>Подробнее</button>
+                </div>
             </div>
-            <div class="Image">
-                <span>Здесь будет изображение</span>
+            <div class="content__post">
+                <div class="content__post__heading">Здесь будет заголовок поста</div>
+                <div class="content__post__image"> Здесь будет изображение</div>
+                <div class="content__post__button">
+                    <button>Подробнее</button>
+                </div>
             </div>
-            <div class="Text">
-                <span>Это текст поста</span>
+            <div class="content__post">
+                <div class="content__post__heading">Здесь будет заголовок поста</div>
+                <div class="content__post__image"> Здесь будет изображение</div>
+                <div class="content__post__button">
+                    <button>Подробнее</button>
+                </div>
             </div>
-            <div class="Button">
-                <button>Подробнее</button>
-            </div>
-        </article>
+        </div>
 
-        <article class="Second-post">
-            <div class="Heading">
-                <span>Здесь будет заголовок поста</span>
-            </div>
-            <div class="Image">
-                <span>Здесь будет изображение</span>
-            </div>
-            <div class="Text">
-                <span>Это текст поста</span>
-            </div>
-            <div class="Button">
-                <button>Подробнее</button>
-            </div>
-        </article>
-
-        <article class="Third-post">
-            <div class="Heading">
-                <span>Здесь будет заголовок поста</span>
-            </div>
-            <div class="Image">
-                <span>Здесь будет изображение</span>
-            </div>
-            <div class="Text">
-                <span>Это текст поста</span>
-            </div>
-            <div class="Button">
-                <button>Подробнее</button>
-            </div>
-        </article>
     </main>
 
-    <footer class="Basement">
+    <footer class="basement">
         <span>Подвал сайта</span>
     </footer>
 
