@@ -3,106 +3,73 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Website</title>
-    <style>
-        .menu {
-            padding: 10px;
-            border: 2px solid #E81E25;
-        }
-
-        main {
-            padding: 10px;
-            border: 2px solid #E81E25;
-        }
-
-        .First-post,
-        .Second-post,
-        .Third-post {
-            padding: 10px;
-            border: 2px solid #000000;
-        }
-
-
-
-        .Heading,
-        .Image,
-        .Text,
-        .Button {
-            padding: 10px;
-            border: 2px solid #036fd4;
-        }
-
-        .Basement {
-            padding: 10px;
-            border: 2px solid #E81E25;
-        }
-    </style>
-
 </head>
-
 <body>
 
-    <header class="menu">
-        <nav class="menu-nav">
-            <span>Шапка сайта</span>
-            <ul>
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">Новости</a></li>
-                <li><a href="#">Контакты</a></li>
+    <header class="header">
+        <div class="header__title">Шапка сайта</div>
+        <nav class="header__menu">
+            <ul class="menu">
+                <li class="menu__item"><a href="#">Главная</a></li>
+                <li class="menu__item"><a href="#">Новости</a></li>
+                <li class="menu__item"><a href="#">Контакты</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <span>Основное содержание</span>
-        <article class="First-post">
-            <div class="Heading">
-                <span>Здесь будет заголовок поста</span>
+        <div class = "main-title">Основное содержание</div>
+        <div class="content">
+            <div class="post">
+                <div class="post__heading">
+                    <span class="post__title">Здесь будет заголовок поста</span>
+                </div>
+                <div class="post__image"> 
+                    <span class="post_photo">Здесь будет изображение</span>
+                </div>
+                <div class="post__text"> 
+                    <span class="post_news">Здесь будет текст</span>
+                </div>
+                <div class="post__actions">
+                    <button class="post_button">Подробнее</button>
+                </div>
             </div>
-            <div class="Image">
-                <span>Здесь будет изображение</span>
+            <div class="post">
+                <div class="post__heading">
+                    <span class="post__title">Здесь будет заголовок поста</span>
+                </div>
+                <div class="post__image"> 
+                    <span class="post_photo">Здесь будет изображение</span>
+                </div>
+                <div class="post__text"> 
+                    <span class="post_news">Здесь будет текст</span>
+                </div>
+                <div class="post__actions">
+                    <button class="post_button">Подробнее</button>
+                </div>
             </div>
-            <div class="Text">
-                <span>Это текст поста</span>
+            <div class="post">
+                <div class="post__heading">
+                    <span class="post__title">Здесь будет заголовок поста</span>
+                </div>
+                <div class="post__image">
+                    <span class="post_photo">Здесь будет изображение</span>
+                </div>
+                <div class="post__text">
+                    <span class="post_news">Здесь будет текст</span>
+                </div>
+                <div class="post__actions">
+                    <button class="post_button">Подробнее</button>
+                </div>
             </div>
-            <div class="Button">
-                <button>Подробнее</button>
-            </div>
-        </article>
+        </div>
 
-        <article class="Second-post">
-            <div class="Heading">
-                <span>Здесь будет заголовок поста</span>
-            </div>
-            <div class="Image">
-                <span>Здесь будет изображение</span>
-            </div>
-            <div class="Text">
-                <span>Это текст поста</span>
-            </div>
-            <div class="Button">
-                <button>Подробнее</button>
-            </div>
-        </article>
-
-        <article class="Third-post">
-            <div class="Heading">
-                <span>Здесь будет заголовок поста</span>
-            </div>
-            <div class="Image">
-                <span>Здесь будет изображение</span>
-            </div>
-            <div class="Text">
-                <span>Это текст поста</span>
-            </div>
-            <div class="Button">
-                <button>Подробнее</button>
-            </div>
-        </article>
     </main>
 
-    <footer class="Basement">
-        <span>Подвал сайта</span>
+    <footer class="footer">
+        <span class="basement">Подвал сайта</span>
     </footer>
 
 </body>

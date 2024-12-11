@@ -1,0 +1,54 @@
+
+        .header {
+            padding: 10px;
+            border: 2px solid #E81E25;
+        }
+
+        .header__menu {
+            padding: 10px;
+        }
+
+        main {
+            padding: 10px;
+            border: 2px solid #E81E25;
+        }
+
+        .menu {
+            padding: 10px;
+            border: 2px solid #E81E25;
+        }
+
+        .content {
+            padding: 10px;
+            border: 2px solid #E81E25;
+        }
+
+        .post {
+            padding: 10px;
+            border: 2px solid #000000;
+        }
+
+        .post__heading {
+            padding: 10px;
+            border: 2px solid #036fd4;
+        }
+
+        .post__image {
+            padding: 10px;
+            border: 2px solid #036fd4;
+        }
+
+        .post__button {
+            padding: 10px;
+            border: 2px solid #036fd4;
+        }
+
+        .post__text {
+            padding: 10px;
+            border: 2px solid #036fd4;
+        }
+
+        .footer {
+            padding: 10px;
+            border: 2px solid #E81E25;
+        }

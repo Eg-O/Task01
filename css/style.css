@@ -1,0 +1,75 @@
+.header{
+    /* display: inline-block; */
+    width: 100%;
+    height: 100px;
+    background: #4F7942;
+    border-radius: 10px;
+
+}
+.header__title{
+    font-size: 24px;
+    padding: 10px;
+    color: aliceblue;
+    /* Хотела разместить по центру, но почему-то не получилось */
+}
+.main-title{
+    font-size: 24px;
+    padding: 10px;
+}
+.menu{
+    list-style-type:none;
+    position: absolute;
+    top: 10px;
+	right: 100px;
+}
+.menu__item{
+    display: inline;
+    margin: 10px;
+}
+.menu__item a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.content{
+    display: grid;
+    grid-template-rows: 150px;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    gap: 5% ;
+    /* Не смогла расположить по ширине экрана, поэтому использовала gap */
+ 
+}
+.post{    
+    display: inline-block;
+    /* Возникла проблема автоподбором размеров блоков под содержимое контента */
+    background-color: #D8D8D8;
+    border-radius: 10px;
+    padding: 30px;
+
+}
+.post_button{
+    background: #4F7942;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+    border: none;
+}
+.post_button:hover{
+    background: rgb(0,0,0,0);
+    box-shadow: inset 0 0 0 2px #4F7942;
+    color: #4F7942;
+}
+
+.post__heading{
+    font-weight: bold;
+    font-size: 20px;
+}
+/* .post_photo{
+    display: inline-block;
+    text-align: center;
+}
+Не получилось разобраться с этим */
+
